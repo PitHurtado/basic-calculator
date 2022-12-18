@@ -12,10 +12,9 @@ html{
 
 body{
   align-items: center;
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background: linear-gradient(0deg, rgba(15,15,90,1) 0%, rgba(253,187,45,1) 100%);
   display: flex;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-display: swap;
   height: inherit;
   justify-content: center;
 }
@@ -25,14 +24,16 @@ body{
   box-shadow: 0 4px 30px rgba(35,35,35,0.1);
   color: #232323;
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   background: rgba(255,255,255,0.3);
   border: 1px solid rgba(255,255,255,0.34); 
   flex-basis: 400px;
-  height: 540px;
+  height: 580px;
   padding: 20px 35px;
 }
-
+.creator{
+  display: flex;
+  justify-content: center;
+}
 .screen{
   backdrop-filter: blur(5.5px);
   -webkit-backdrop-filter: blur(5.5px);
@@ -78,6 +79,7 @@ body{
   color: #fff;
   background: rgba(35,35,35,1);
 }
+
 
 .calc-button:last-child:hover{
   background-color: inherit;
